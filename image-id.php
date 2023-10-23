@@ -1,7 +1,5 @@
 <?php
 // 目标图片 URL
-// $imageUrl = 'https://bing.com/th?id=OHR.WhitsundaySwirl_ZH-CN9085371328_800x480.jpg';
-//$imageUrl = $_GET['url'];;
 $id = $_GET['id'];
 if (empty($id)) {
     $errorJson = array();
